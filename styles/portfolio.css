@@ -115,4 +115,53 @@ section{
     color: #757575;
 }
 /* resume style */
-
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #757575;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    margin-left: 150px;
+    text-align: center;
+}
+/* contract style */
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+}
+.contract .section-title{
+    text-align: left;
+    padding: 130px 12px;
+}
+.contract input[type="text"], input[type="email"]textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contract a{
+    text-decoration: none;
+}
